@@ -1,0 +1,36 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 5px 0;
+  background-color: #282c34;
+  padding: 5px;
+  border-radius: 6px;
+  position: relative;
+  font-family: "montserrat", "sans-serif";
+}
+.media:hover {
+  background-color: rgb(196, 196, 202);
+  color: black;
+}
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+.poster {
+  border-radius: 10px;
+}
+.title {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  padding: 6px 0px;
+  margin-top: 5px;
+}
+.sunTitle {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
